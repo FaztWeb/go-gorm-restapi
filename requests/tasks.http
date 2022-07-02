@@ -1,0 +1,5 @@
+###
+GET http://localhost:4000/api/tasks
+
+###
+GET http://localhost:4000/api/tasks/2
