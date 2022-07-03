@@ -1,0 +1,21 @@
+@api = http://localhost:4000/api/users
+
+### get all users
+GET {{api}}
+
+### get a single user
+GET {{api}}/7
+
+### create a new user
+POST {{api}}
+Content-Type: application/json
+
+  
+  {
+    "FirstName": "John",
+    "LastName": "Doe",
+    "email": "john@gmail.com"
+  }
+
+### delete a user
+DELETE {{api}}/1

@@ -1,5 +1,15 @@
 ###
 GET http://localhost:4000/api/tasks
 
-###
-GET http://localhost:4000/api/tasks/2
+### get a single task
+GET http://localhost:4000/api/tasks/10
+
+### Create Task
+POST http://localhost:4000/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Task 3",
+  "description": "Task 3 description",
+  "user_id": 7
+}
